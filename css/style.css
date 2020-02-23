@@ -1,0 +1,212 @@
+@charset "utf-8";
+body { margin: 0px;padding: 0px; font-family: "open sans"; font:16px;}
+h1, h2, h3, h4, h5, h6, span, textfield, ratio, form, label, ul, li, ol, textarea, input, p, a, strong{ padding:0px; margin:0px;}
+
+
+a{ text-decoration:none;}
+img{ border:none;}
+a,img{ border:none;}
+
+/**********************************main div starts ******************************/
+
+#header-main{ width:100%; float:left; background:url(../images/header-bg.png) center top no-repeat; background-size:cover; padding:26px 0 176px 0;}
+#body-main{ width:100%; float:left;}
+#footer-main{ width:100%; float:left; background-color:#0093dd; padding:73px 0 73px 0;}
+.wrap{ width:1170px; margin:0 auto 0 auto;}
+
+/*********************************main div ends ********************************/
+
+
+/*********************************head divs starts*****************************/
+.header-main{ width:100%; float:left;}
+.header-top{ width:100%; float:left; padding:0 0 200px 0;}
+.header-top-left{ width:15%; float:left;}
+.header-top-right{ width:55%; float:right; padding:0 0 0 0;}
+.header-top-right ul{ list-style:none; padding:0px; margin:0px;}
+.header-top-right ul li{ float:left; }
+.header-top-right ul li a{ display:block; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:16px; color:#fff; text-transform:uppercase;padding:20px 20px 0 20px; }
+.header-top-right ul li a:hover{ border-top:#fff 2px solid; padding:18px 20px 0 20px;}
+.header-top-right ul li a.active{border-top:#fff 2px solid;padding:18px 20px 0 20px;}
+
+
+
+.header-bot{ width:70%; float:left; padding:0 0 0 58px}
+.header-bot h1{  font-size:50px; font-weight:bold; color:#fff ; text-transform:uppercase;}
+.header-bot h2{ font-size:50px; font-weight:bold; color:#fff; text-transform:uppercase;}
+.header-bot p{ font-size:15px; color:#fff; padding:15px 0 30px 0;}
+.header-bot h1 span{ font-size:50px; color:#fff; font-family:"Gotham Light"; text-transform:uppercase;}
+
+.header-bot ul{ list-style:none; margin:0px; padding:0px;}
+.header-bot ul li{ float:left; margin:0 5px 0 0;}
+.header-bot ul li a{   display:block; color:#FFF; text-align:center; border:#fff 2px solid; padding:10px 15px 10px 15px;}
+.header-bot ul li a:hover{background-color:#f88801;}
+
+
+/************************************heads  divs  ends******************************/
+
+
+/************************************body div starts********************************/
+.section-1{ width:100%; float:left; padding:0 0 98px 0;}
+.dry{ width:100%; float:left; padding:135px 0 90px 0;}
+.dry-top{ font-size:50px; font-weight:bold; text-transform:uppercase; padding:0 0 40px 0; }
+.dry-top span{ font-size:50px; font-family:"Gotham Light"; color:#0093dd;}
+
+.dry-bot{ width:100%; float:left;}
+.dry-left{ width:43%; float:left; background-color:#f2f2f2; padding:50px 3% 45px 3%; text-align:center;}
+.dry-left h1{}
+.dry-left h2{ font-family: "open sans"; font-size:42px; color:#999999; text-transform:uppercase; padding:30px 0 30px 0;}
+.dry-left p{ font-family: "open sans"; font-size:17px; color:#6f6f6f; line-height:28px;}
+
+.dry-right{ width:43%; float:right; background-color:#f2f2f2; padding:50px 3% 45px 3%; text-align:center;}
+.dry-right h1{}
+.dry-right h2{ font-family: "open sans"; font-size:42px; color:#999999; text-transform:uppercase; padding:30px 0 30px 0;}
+.dry-right p{ font-family: "open sans"; font-size:17px; color:#6f6f6f; line-height:28px;}
+
+
+
+.our-main{ width:100%; float:left;}
+.our-top{ width:100%; float:left; font-size:50px; font-weight:bold; color:#000; text-align:center; text-transform:uppercase;}
+.our-top p{ font-family: "Myriad Pro"; font-size:17px; color:#999999; text-transform:none; padding:8px 0 50px 0;}
+.our-top span{ font-size:50px; font-family:"Gotham Light"; color:#0093dd;}
+.our-bot{ width:100%; float:left; position:relative;}
+.line-one{ position:absolute;left:2%; top:-35px; width:100%;}
+.line-two{ position:absolute;left:-36%; top:40px; width:100%;}
+.line-three{ position:absolute;left:2%; top:290px; width:100%;}
+
+.our-bot-left{ width:44%; float:left; font-family:"open sans";}
+.planing{ width:100%%; float:left; padding:0 0 0 0;}
+.planing h1{ font-size:28px; color:#0093dd; padding:20px 0 15px 0;  text-transform:uppercase;}
+.planing p{ font-size:16px; color:#333; line-height:25px;}
+
+
+.dot{ width:100%; float:left; padding:0 0 10px 0; position:relative;}
+.dot a{ width:52px; height:52px; line-height:52px; text-align:center; font-size:27px; font-weight:bold; color:#fff; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; border-radius:50%; display:block; background-color:#999999;}
+.dot a:hover{ background-color:#C0C;}
+.line4{ width:100%; position:absolute; left:-35%; top:-30px;}
+.line5{ width:100%; position:absolute; left:5px; top:265px;}
+.gap{ margin:0 0 0 10px;}
+
+
+.mease{ width:100%; float:left; padding:136px 0 0 0;}
+
+
+.our-bot-right{ width:44%; float:right;font-family:"open sans";}
+.right-top{ width:100%; float:left; padding:60px 0 0 0; position:relative;}
+.right-bot{ width:100%; float:left; padding:200px 0 70px 0;}
+
+
+.btnn{ width:100%; float:left; text-align:center;}
+.btnn a{ width:10%; display:block; background-color:#f88801; font-size:16px; color:#fff; padding:15px 20px 15px 20px; margin:0 0 0 43%;}
+.btnn a:hover{ background-color:#C0F;}
+
+
+
+
+.section-2{ width:100%;  padding:102px 0 100px 0;  float:left; background-color:#f2f2f2;}
+
+.sec-2-top{ width:100%; float:left; text-align:center; padding:0 0 40px 0; }
+.sec-2-top h1{ font-size:52px; font-weight:bold;}
+.sec-2-top span{ font-size:50px; font-family:"Gotham Light"; color:#0093dd;}
+.sec-2-top p{ font-family:"Myriad Pro"; font-size:14px; color:#919090;}
+
+
+
+.sec-2-mid{ width:100%; float:left;}
+.sec-2-mid-left{ width:49%; float:left;}
+.sec-2-mid-right{ width:49%; float:right;}
+.blue-box{ width:45%; float:left; background-color:#0093dd; border-radius:0 0 0 50px; text-align:center; padding:58px 0 58px 0;}
+.white-box{ width:45%; float:left; background-color:#fff; padding:40px 2% 40px 8%;}
+.white-box h1{ font-size:30px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+.white-box p{ font-size:17px; line-height:23px; padding:15px 0 67px 0;}
+.white-box a{ color:#f88801; font-size:16px; display:block;}
+.white-box a:hover{ color:#C06;}
+
+
+.sec-2-bot{ width:100%; float:left; padding:40px 0 0 0;}
+.sec-2-bot a{ width:10%; background-color:#f88801; color:#fff; font-family:"Myriad Pro"; padding:15px 20px 15px 20px; margin:0 0 0 45%; display:block; text-transform:uppercase; text-align:center;}
+.sec-2-bot a:hover{ background-color:#C09;}
+
+
+
+
+
+
+.section-3{ width:100%; float:left; background-color:#fff; padding:0 0 100px 0;}
+.sec-3-work{ width:100%; float:left; text-align:center;}
+.sec-3-work h1{ font-size:50px; color:#000; padding:90px 0 25px 0;}
+.sec-3-work p{ font-size:16px; color:#999999; font-family: "open sans";}
+.sec-3-work a{ width:10%; display:block; padding:15px 20px 15px 20px; background-color:#f88801; color:#fff; margin:0 0 0 45%;}
+.sec-3-work a:hover{ background-color:#C09;}
+
+.pad{ padding:35px 0 40px 0;}
+
+
+
+
+.section-4{ width:100%; float:left; background-color:#f2f2f2; padding:80px 0 80px 0;}
+.sec-4{ width:100%; float:left; position:relative;}
+.arrow-posi{ position:absolute; float:left; width:30px; height:30px; left:0; top:115px; background:url(../images/arrow-left.png) center center no-repeat;}
+.arrow-posi2{ position:absolute; float:right; width:30px; height:30px; right:0; top:115px; background:url(../images/arrow-right.png) center center no-repeat;}
+
+.sec-4-top{ width:100%; float:left; }
+.sec-4-top h1{ font-size:22px; color:#999999; text-transform:uppercase; padding:0 0 45px 0; text-align:center;}
+
+.sec-4-bot{ width:90%; margin:0 auto 0 auto;}
+.sec-4-bot ul{ list-style:none; padding:0px;}
+.sec-4-bot ul li{ float:left; width:12%; text-align:center; padding:0 23px 0 25px;}
+.sec-4-bot ul li{ display:block;}
+
+
+
+
+
+.section-5{ width:100%; float:left; background-color:#fff; padding:100px 0 100px 0;}
+
+.sec-5-main{ width:100%; float:left;}
+.sec-5-top{ width:100%; float:left; color:#999999; font-family:"Gotham Light"; font-size:42px; text-align:center; padding:0 0 42px 0;}
+.sec-5-bot{ width:100%; float:left;}
+
+
+.sec-5-bot-left{ width:49%; float:left;}
+.sec-5-bot-left ul{ list-style:none; margin:0px; padding:0px;}
+.sec-5-bot-left ul li{ width:95%; line-height:33px; border:#dddddd 1px solid; margin:0 0 10px 0; color:#dddddd; padding:0 0 0 5%; border-radius:5px;}
+.textfield{ width:100%; padding:20px 0 20px 0; border:none; outline:none;}
+
+
+.sec-5-bot-right{ width:49%; float:right;}
+.button-top{ width:95%; float:left; padding:0 0 10px 5%; border:#dddddd 1px solid;margin:0 0 10px 0;color:#dddddd; border-radius:5px;}
+.textfield2{ width:100%; padding:20px 0 80px 0; outline:none; border:none;}
+
+.button-bot{ width:100%; float:left; background-color:#f88801; text-align:center; line-height:50px; font-size:16px; font-weight:bold;}
+.button-bot a{ color:#000; display:block;}
+.button-bot a:hover{ color:#fff;}
+
+
+
+/**************************************footer div starts******************************/
+
+.footer-bot{ width:100%; float:left; background-color:#000;}
+
+.foot-left{ width:15%; float:left;}
+.foot-left p{ font-family:"Myriad Pro"; font-size:14px; line-height:26px; color:#fff; padding:24px 0 0 0; text-transform:uppercase;} 
+.foot-mid{ width:50%; float:left; margin:0 7% 0 7%;}
+.company-1{ width:30%; float:left; color:#fff; font-size:16px; text-transform:uppercase; font-weight:bold;}
+.company-1 ul{ list-style:none; margin:0px; padding:10px 0 0 0;}
+.company-1 ul li{ line-height:28px;}
+.company-1 ul li a{ display:block; color:#fff; font-weight:normal; font-size:14px; font-family:"Gotham Light";}
+.company-1 ul li a:hover{ color:#F00;}
+
+.gappyyy{ margin:0 29px 0 29px;}
+
+
+
+.foot-right{ width:20%; float:right; color:#fff; font-size:16px; text-transform:uppercase; font-weight:bold;}
+.foot-right p{ color:#fff;  font-size:13px; text-transform:uppercase; font-family:"Gotham Light"; font-weight:normal; padding:20px 0 13px 0;}
+.foot-right h1{margin:0 0 7px 0;} 
+.foot-right a{ width:45%; display:block; background-color:#f88801; padding:10px 15px 10px 15px; color:#fff; font-size:13px; }
+.foot-right a:hover{ background-color:#909;}
+
+.email{ width:90%; outline:none; border:none; padding:10px 0 10px 10%;}
+
+
+.last-foot{ width:100%; float:left; background-color:#0381c1; text-align:center; color:#fff; font-size:14px; font-family:"Myriad Pro"; padding:10px 0 10px 0;}
